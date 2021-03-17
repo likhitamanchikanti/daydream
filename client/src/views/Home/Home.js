@@ -8,7 +8,7 @@ function Home() {
         <div className="App">
             <header className="App-header">
                 <p>
-                    Homepage
+                    Welcome to Daydream Magazine
                 </p>
             </header>
         </div>
