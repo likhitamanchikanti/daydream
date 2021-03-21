@@ -1,14 +1,13 @@
 .App {
     text-align: center;
     margin: 10px;
-    /* max-width: 1000px; */
 }
 
 .App-logo {
     height: 40vmin;
 }
 
-.sup {
+.bottom {
     align-items: center;
     justify-content: center;
 }
