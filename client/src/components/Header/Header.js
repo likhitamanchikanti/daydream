@@ -6,16 +6,13 @@ import React from 'react';
 const Header = () => {
     return (
         <div className='cardList'>
-            {/* Logo */}
-            <Link id="logo-link" to="/">
-                <img className=".image-container" src={ "/logo192.png" } alt="React logo" width="50px" height="50px"/>
-            </Link>
+            <Link className="home-link" style={{ fontSize: 50}} to="/">DAYDREAM MAGAZINE</Link>
 
             {/* Page Links */}
             <div className="topnav-right">
-                <Link className="topnav-link" to="/AboutUs">About</Link>
-                <Link className="topnav-link" to='/Contributors'>Our Contributors</Link>
-                <Link className="topnav-link" to='/ContactUs'>Contact Us</Link>
+                <Link className="tab-link" style={{ fontSize: 15}} to="/AboutUs">ABOUT</Link>
+                <Link className="tab-link" style={{ fontSize: 15}} to='/Contributors'>OUR CONTRIBUTORS</Link>
+                <Link className="tab-link" style={{ fontSize: 15}} to='/ContactUs'>CONTACT US</Link>
             </div>
         </div>
     )
