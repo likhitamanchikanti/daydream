@@ -16,7 +16,27 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
-    }
+    },
+    {
+      "src": "facebook.png",
+      "type": "image/png",
+      "sizes": "268x188"
+    },
+    {
+      "src": "insta.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "Spotify.png",
+      "type": "image/png",
+      "sizes": "660x826"
+    },
+    {
+      "src": "TempIconsy.png",
+      "type": "image/png",
+      "sizes": "1444x636"
+    },
   ],
   "start_url": ".",
   "display": "standalone",
