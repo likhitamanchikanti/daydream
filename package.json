@@ -32,6 +32,8 @@
     "react": "^17.0.1",
     "react-habitat": "^1.0.1",
     "react-router-dom": "^5.2.0",
+    "react-script": "^2.0.5",
+    "react-scripts": "^4.0.3",
     "should": "^13.2.3",
     "supertest": "^4.0.2"
   },
