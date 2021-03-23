@@ -1,27 +1,32 @@
-AboutUs.App-AU {
+.App-AU {
     text-align: center;
 }
 
-AboutUs.App-header-AU h1{
-    background-color: #28292c;
+.App-header-AU {
+    background-color: #404146;
     height: auto;
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: calc(100px + 2vmin);
+    font-size: calc(10px + 2vmin);
     color: white;
 }
 
-AboutUs.App-info-AU h2{
-    background-color: #3b66e6;
+.App-info-AU {
+    background-color: #428a8f;
     height: auto;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: rgb(192, 20, 20);
+    color: white;
+}
+
+ .App-logo {
+    height: 40vmin;
 }
