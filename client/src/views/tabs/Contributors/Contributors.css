@@ -1,0 +1,30 @@
+.Contributor-Name{
+    text-align: center;
+    font-size: calc(14px);
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+.Text{
+    position: relative;
+    left: -150px;
+    display:inline-block;
+    font-size: calc(12px);
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.2px;
+    word-spacing: 3px;
+    flex: 1;
+    position: relative;
+    bottom:-13.5px;
+}
+
+.Contributor-Photo {
+    text-align: left;
+    flex:1;
+  }
+
+.SplitScreen{
+    display:flex;
+}
+

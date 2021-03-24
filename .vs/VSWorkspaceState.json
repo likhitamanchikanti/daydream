@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\views",
+    "\\client\\src\\views\\tabs",
+    "\\client\\src\\views\\tabs\\AboutUs",
+    "\\client\\src\\views\\tabs\\ContactUs",
+    "\\client\\src\\views\\tabs\\Contributors"
+  ],
+  "SelectedNode": "\\client\\src\\views\\tabs\\ContactUs\\ContactUs.css",
+  "PreviewInSolutionExplorer": false
+}
