@@ -1,0 +1,43 @@
+.Contributor-Name {
+    text-align: center;
+    font-size: calc(14px);
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+.Text {
+    position: relative;
+    left: -150px;
+    display: inline-block;
+    font-size: calc(12px);
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.2px;
+    word-spacing: 3px;
+    flex: 1;
+    position: relative;
+    bottom: -13.5px;
+    text-align: center;
+}
+
+.Contributor-Photo {
+    text-align: left;
+    flex: 1;
+}
+
+.SplitScreen {
+    display: flex;
+}
+
+.App-header-CO {
+    background-color: #28292c;
+    height: auto;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}

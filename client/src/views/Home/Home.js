@@ -5,9 +5,6 @@ import React from 'react';
 function Home() {
     return (
         <div className="App">
-            
-            <br />
-            <br />
 
             <div className="featured-video-container">
                 <div className="featured-video" />
@@ -34,6 +31,10 @@ function Home() {
                 <div className="featured-items" />                   
                 <div className="featured-items" />                   
             </div>
+
+            <br />
+            <br />
+            <br />
                   
         </div>
     );
