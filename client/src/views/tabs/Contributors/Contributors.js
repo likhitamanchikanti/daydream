@@ -1,8 +1,8 @@
+import './Contributors.css';
+
+import ContributorList from './ContributorList'
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Contributors.css';
-import ContributorList from './ContributorList'
-
 
 var arrayContributors = [
     {
@@ -32,11 +32,9 @@ function Contributers() {
     
     return (
         <div className="App">
-            <header className="App-header">
-                <p>
-                    Contributers
-                </p>
-            </header>
+            <p>
+                Contributers
+            </p>
             {arrayContributors.map(contributor =>
                 <ContributorList {...contributor}/>
             )}
