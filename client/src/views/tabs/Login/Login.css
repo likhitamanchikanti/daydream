@@ -1,0 +1,40 @@
+.App-header-CU{
+    background-color: #28292c;
+    min-height: 3cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.image-container{
+    width: 10px;
+    height: 10px;
+}
+.bottom-three {
+    margin-bottom: 3cm;
+ }
+
+ .right-one{
+    margin-right: 1cm;
+ }
+ .left-align{
+    text-align: left;
+ }
+
+ .loginButton{
+    font: normal 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  display:inline-block;
+  }
+  
+  

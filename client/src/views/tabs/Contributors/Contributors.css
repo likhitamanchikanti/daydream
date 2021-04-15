@@ -6,9 +6,8 @@
 }
 
 .Text{
-    margin-left: -110%;
     position: relative;
-    
+    margin-left: -1040px;
     display:inline-block;
     font-size: calc(12px);
     font-weight: normal;
