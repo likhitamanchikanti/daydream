@@ -34,7 +34,8 @@ function Home() {
                 <div className="featured-items" />                   
                 <div className="featured-items" />                   
             </div>
-                  
+
+            <br></br>       
         </div>
     );
 }

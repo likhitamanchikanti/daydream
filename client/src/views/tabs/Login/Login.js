@@ -22,11 +22,22 @@ var arrayAccounts = [
 
 var loginStatus;
 
+if(localStorage.getItem('arrayAccounts') == null){
+  localStorage.setItem('arrayAccounts', JSON.stringify(arrayAccounts));
+}
+
 arrayAccounts=JSON.parse(localStorage.getItem('arrayAccounts'));
 
 function nullCheck(){
   if(localStorage.getItem('arrayAccounts') == null){
       localStorage.setItem('arrayAccounts', JSON.stringify(arrayAccounts));
+  }
+}
+
+function nullCheck2(){
+  var a = false;
+  if(localStorage.getItem('loginStatus') == null){
+      localStorage.setItem('loginStatus', JSON.stringify(a));
   }
 }
 
@@ -45,8 +56,7 @@ function setLoginStatus(){
   loginStatus=false;
   var username =  document.getElementById("username").value;
   var password=  document.getElementById("password").value;
-  var numAccounts = arrayAccounts.length;
-  for(var i = 0; i<numAccounts; i++){
+  for(var i = 0; i<arrayAccounts.length; i++){
     if(username==arrayAccounts[i].username && password==arrayAccounts[i].password){
        loginStatus=true;
        localStorage.setItem('loginStatus', JSON.stringify(loginStatus));
@@ -117,7 +127,7 @@ function Login() {
             </header>
 
             <div>
-            
+            {nullCheck2()}
            {JSON.parse(localStorage.getItem('loginStatus'))==true &&
            <div>
             <button onClick={() => setButtonPopup(true)}>View Admin Accounts</button>

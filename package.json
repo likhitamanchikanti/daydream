@@ -31,8 +31,10 @@
     "nodemon": "^1.18.10",
     "react": "^17.0.1",
     "react-habitat": "^1.0.1",
+    "react-popup": "^0.10.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "reactjs-popup": "^2.0.4",
     "should": "^13.2.3",
     "supertest": "^4.0.2"
   },

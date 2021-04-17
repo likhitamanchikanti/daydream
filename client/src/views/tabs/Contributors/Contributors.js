@@ -29,12 +29,23 @@ var arrayContributors = [
     },
 ]
 
-
+var a=false;
 arrayContributors=JSON.parse(localStorage.getItem('arrayContributors'));
+
+if(localStorage.getItem('loginStatus') == null){
+    localStorage.setItem('loginStatus', JSON.stringify(a));
+  }
 
 function nullCheck(){
     if(localStorage.getItem('arrayContributors') == null){
         localStorage.setItem('arrayContributors', JSON.stringify(arrayContributors));
+    }
+}
+
+function nullCheck2(){
+    var a = false;
+    if(localStorage.getItem('loginStatus') == null){
+        localStorage.setItem('loginStatus', JSON.stringify(a));
     }
 }
 
@@ -95,8 +106,9 @@ function Contributers() {
             </header>
 
            
-            
+            {nullCheck2()}
             {JSON.parse(localStorage.getItem('loginStatus'))==true &&
+            
             <div>
             
             <button onClick={() => setButtonPopup(true)}>Add Contributor</button>
